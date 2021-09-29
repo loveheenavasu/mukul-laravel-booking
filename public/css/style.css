@@ -4466,8 +4466,7 @@ a.close.disabled {
   outline: 0; }
 
 .modal-backdrop {
-  /* position: fixed; */
-  /* position: absolute; */
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 1040;
@@ -8922,7 +8921,7 @@ a {
 .footer {
   padding-left: 0;
     background-color: #fbfbfb;
-    /* margin-left: 242px; */
+    margin-left: 242px;
     }
   .footer .copyright {
     padding: 0.9375rem; }
@@ -11426,7 +11425,7 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
   margin-bottom: 0;
   margin-left: 212px;
   flex-grow: 8;
-  transition: .600s;
+  transition: .600s; 
 }
   @media only screen and (min-width: 1200px) and (max-width: 1400px) {
     .content-body {
@@ -11645,7 +11644,7 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
         position: relative;
         top: 0;
         line-height: 1;
-          margin-right: 5px;
+          margin-right: 5px; 
           max-width: 30px;
         max-height: 24px
       }
@@ -11957,7 +11956,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
     margin-bottom: 4px;
     font-weight: 600;
     letter-spacing: 1px;
-    position: relative;
+    position: relative; 
     border-radius: 6px;
   }
     @media only screen and (max-width: 1400px) {
@@ -11978,9 +11977,9 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
       -ms-transition: all 0.5s;
       transition: all 0.5s;
       border-radius: 0 0.375rem 0.375rem 0;
-      display: none;
+      display: none;   
    }
-
+  
  [data-sidebar-style="full"][data-layout="vertical"] .deznav .metismenu > li:hover > a {
     background: #bfc9d4;
     box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
@@ -11995,10 +11994,10 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
     color: #0e1726 !important;
  }
     [data-sidebar-style="full"][data-layout="vertical"] .deznav .metismenu > li.mm-active > a i {
-      color: #1b55e2;
+      color: #1b55e2; 
     }
     [data-sidebar-style="full"][data-layout="vertical"] .deznav .metismenu > li.mm-active > a:hover i{
-      color: #1b55e2 !important;
+      color: #1b55e2 !important; 
     }
     [data-sidebar-style="full"][data-layout="vertical"] .deznav .metismenu > li.mm-active > a:before {
       width: 8px; }
@@ -12044,7 +12043,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
       [data-sidebar-style="full"][data-layout="vertical"] .menu-toggle .deznav .metismenu li a svg {
         max-width: 24px;
         max-height: 24px;
-        margin-right: 0;
+        margin-right: 0; 
         color: #a0a5a9;
       }
       [data-sidebar-style="full"][data-layout="vertical"] .deznav .metismenu li a:hover svg{
@@ -12092,11 +12091,14 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
       overflow: visible; }
   [data-sidebar-style="full"][data-layout="vertical"] .menu-toggle .deznav .metismenu > li {
     transition: all 0.4s ease-in-out;
-    padding: 0 13px;
+    padding: 0 13px; 
     align-items: center;
   }
   [data-sidebar-style="full"][data-layout="vertical"] .deznav .metismenu > li.mm-active > a svg {
         color: #1b55e2;
+  }
+  [data-sidebar-style="full"][data-layout="vertical"] .menu-toggle .deznav .metismenu > li.mm-active > a svg {
+        color: #fff;
   }
     [data-sidebar-style="full"][data-layout="vertical"] .menu-toggle .deznav .metismenu > li > a {
       text-align: center; }
@@ -12106,7 +12108,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
         padding: 0;
         margin: 0;
        }
-
+      
     [data-sidebar-style="full"][data-layout="vertical"] .menu-toggle .deznav .metismenu > li.mm-active > a {
       background: #1b55e2;
       border-radius: 0.375rem;
@@ -24792,9 +24794,7 @@ code {
   border-radius: 0.375rem; }
 
 .modal-backdrop {
-  /* z-index: 10 !important; */
-  z-index: -1 !important;
- }
+  z-index: 10 !important; }
 
 .pagination .page-item .page-link:hover {
   background: #1b55e2;

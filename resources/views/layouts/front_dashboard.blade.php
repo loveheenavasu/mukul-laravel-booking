@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="{{asset("vendor/toastr/css/toastr.min.css")}}">
     @yield('css')
     <link href="{{asset('css/style.css')}}" rel="stylesheet">
-    <link href="{{asset('css/custom.css')}}" rel="stylesheet">
+ 
 </head>
 <body>
 
@@ -259,7 +259,7 @@
 @endif
 @yield('js')
 
-
+   <link href="{{asset('css/custom.css')}}" rel="stylesheet">
 </body>
 
 </html>
